@@ -1,0 +1,141 @@
+#formspace{
+    display: grid;
+    grid-template-columns: 1FR 1FR;
+    width:300px;
+    margin: 0 auto; 
+    gap: 5px;
+    padding:60px;
+}
+
+#customerlist{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1fr 1fr;
+    width:1000px;
+    margin: 0 auto; 
+    gap: 5px;
+    text-align: center;
+    padding:60px;
+}
+
+/* customer details --------------------------------------------------------------------------*/
+
+#sjk{
+    display: grid;
+    grid-template-columns: .3FR 1.5FR 1fr 1fr;
+    width: 1000px;
+    margin: 0 auto; 
+    gap: 5px;
+    padding:60px;
+}
+
+#addsjk{
+    grid-column:1/3;
+    grid-row-start:3;
+}
+
+#provincesjk{
+    grid-column:1/3;
+    grid-row-start:4;
+}
+
+#emailsjk{
+    grid-column:1/3;
+    grid-row-start:5;
+}
+
+#numbersjk{
+    grid-column:1/3;
+    grid-row-start:6;
+}
+
+#OTsjk{
+    grid-column: 3/5;
+    text-align: center;
+}
+
+#OIsjk{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    text-align: center;
+}
+
+#OI1sjk{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    text-align: center;
+}
+
+#OI2sjk{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    text-align: center;
+}
+
+#ODsjk{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    text-align: center;
+}
+
+#OD1sjk{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    text-align: center;
+}
+
+#OD2sjk{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    text-align: center;
+}
+
+/* add food --------------------------------------------------------------------------*/
+
+#addfood{
+    display: grid;
+    grid-template-columns: 200px 1FR;
+    grid-template-rows: repeat(5,auto);
+    width: 600px;;
+    margin: 0 auto; 
+    gap: 5px;
+    padding:60px;
+}
+
+#prodaddphoto{
+    grid-column-start: 1;
+    grid-row: 1/10;
+    background-color: cadetblue;
+}
+
+/* food item --------------------------------------------------------------------------*/
+
+#fooditem{
+    display: grid;
+    grid-template-columns: 200px 1FR 1FR;
+    grid-template-rows: repeat(5,auto);
+    width:600px;
+    margin: 0 auto; 
+    gap: 5px;
+    padding:60px;
+}
+
+#food1photo{
+    grid-column-start: 1;
+    grid-row: 1/5;
+    background-color: darkgoldenrod;
+}
+
+#food1name{
+    grid-column: 2/4;
+    grid-row-start: 1;
+}
+
+#food1price{
+    grid-column: 2/4;
+    grid-row-start: 2;
+}
+
+#food1desc{
+    grid-column: 2/4;
+    grid-row-start: 3;
+}
